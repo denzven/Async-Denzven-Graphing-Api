@@ -1,1 +1,1 @@
-web: hypercorn app:app --log-file=-
+web hypercorn -b 0.0.0.0:$PORT app:app
