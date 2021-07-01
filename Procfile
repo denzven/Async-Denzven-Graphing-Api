@@ -1,1 +1,1 @@
-web: gunicorn app:app --log-file=-
+web: hypercorn app:app --log-file=-
