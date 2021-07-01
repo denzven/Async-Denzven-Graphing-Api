@@ -259,10 +259,10 @@ async def flat_Graph():
 #    app.run()
 
 #local
-if __name__ == '__main__':
-    app.run(host='localhost', port=8080)
+#if __name__ == '__main__':
+#    app.run(host='localhost', port=8080)
 
 #heroku
-#if __name__ == '__main__':
-#    app.run(debug=True, use_reloader=True)
+if __name__ == '__main__':
+    app.run(debug=True, use_reloader=True)
 
